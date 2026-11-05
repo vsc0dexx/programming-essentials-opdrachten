@@ -1,0 +1,18 @@
+void setup() {
+  size(500,500);
+  println("start");
+}
+
+void draw() {
+  println("Teken"); 
+fill(0,0,0);
+rect(150,100,200,360);
+fill(255,0,0);
+ellipse(250,175,100,100);
+fill(255,165,0);
+ellipse(250,285,100,100);
+fill(0,255,0);
+ellipse(250,395,100,100);
+fill(0,0,0);
+rect(225,450,50,100);
+}
